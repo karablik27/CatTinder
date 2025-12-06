@@ -48,10 +48,10 @@
 ## Скриншоты приложения
 
 ![5305379711716364175](https://github.com/user-attachments/assets/d775ad19-611f-4958-8081-0b58a80e8f7b)
-![5305379711716364175 (1)](https://github.com/user-attachments/assets/50c6eb54-31ae-414f-8529-96ee4d24199e)
-![5305379711716364175 (2)](https://github.com/user-attachments/assets/4c6a3d86-486e-4e36-9131-b667fde9ea00)
-![5305379711716364175 (3)](https://github.com/user-attachments/assets/5de58d12-c8d0-4c4b-85c5-6b380220617a)
-![5305379711716364175 (4)](https://github.com/user-attachments/assets/4c53cc3e-e612-4698-9240-9aea17a19c81)
+![5305379711716364172](https://github.com/user-attachments/assets/fd4a3ff4-751f-413d-abc9-95317e3b3c89)
+![5305379711716364174 (4)](https://github.com/user-attachments/assets/70229a76-9f2b-4d79-959d-2bb92a6f512f)
+![5305379711716364173 (4)](https://github.com/user-attachments/assets/e039639c-5ac7-49b2-9650-07522693c303)
+![5305379711716364171 (3)](https://github.com/user-attachments/assets/2253c0ad-2f93-416e-9e2d-7c6dbb4a9436)
 
 ---
 
