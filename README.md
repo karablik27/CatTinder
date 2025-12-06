@@ -57,7 +57,7 @@
 
 ## Скачать APK
 
-**[Скачать последнюю версию APK]()**  
+**[Скачать последнюю версию APK](https://github.com/karablik27/CatTinder/releases/download/v1.0.0/app-release.apk)**  
 
 ---
 
