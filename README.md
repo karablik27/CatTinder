@@ -1,4 +1,4 @@
-# 🐾 CatTinder — приложение для свайпа котиков
+# CatTinder — приложение для свайпа котиков
 
 **CatTinder** — Flutter-приложение с Tinder-подобным свайп-интерфейсом для просмотра котиков.
 
@@ -46,6 +46,12 @@
 ---
 
 ## Скриншоты приложения
+
+![5305379711716364175](https://github.com/user-attachments/assets/d775ad19-611f-4958-8081-0b58a80e8f7b)
+![5305379711716364175 (1)](https://github.com/user-attachments/assets/50c6eb54-31ae-414f-8529-96ee4d24199e)
+![5305379711716364175 (2)](https://github.com/user-attachments/assets/4c6a3d86-486e-4e36-9131-b667fde9ea00)
+![5305379711716364175 (3)](https://github.com/user-attachments/assets/5de58d12-c8d0-4c4b-85c5-6b380220617a)
+![5305379711716364175 (4)](https://github.com/user-attachments/assets/4c53cc3e-e612-4698-9240-9aea17a19c81)
 
 ---
 
