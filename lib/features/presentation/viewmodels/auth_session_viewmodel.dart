@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../../app/analytics/analytics_service.dart';
+import '../../../app/analytics/analytics_service.dart';
 import '../../domain/usecases/check_auth_status_usecase.dart';
 import '../../domain/usecases/has_registered_user_usecase.dart';
 import '../../domain/usecases/login_usecase.dart';

@@ -3,14 +3,14 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
 
 import 'package:cattinder/app/analytics/analytics_service.dart';
-import 'package:cattinder/features/auth/domain/repositories/auth_repository.dart';
-import 'package:cattinder/features/auth/domain/usecases/check_auth_status_usecase.dart';
-import 'package:cattinder/features/auth/domain/usecases/has_registered_user_usecase.dart';
-import 'package:cattinder/features/auth/domain/usecases/login_usecase.dart';
-import 'package:cattinder/features/auth/domain/usecases/logout_usecase.dart';
-import 'package:cattinder/features/auth/domain/usecases/signup_usecase.dart';
-import 'package:cattinder/features/auth/presentation/screens/auth_screen.dart';
-import 'package:cattinder/features/auth/presentation/viewmodels/auth_session_viewmodel.dart';
+import 'package:cattinder/features/domain/repositories/auth_repository.dart';
+import 'package:cattinder/features/domain/usecases/check_auth_status_usecase.dart';
+import 'package:cattinder/features/domain/usecases/has_registered_user_usecase.dart';
+import 'package:cattinder/features/domain/usecases/login_usecase.dart';
+import 'package:cattinder/features/domain/usecases/logout_usecase.dart';
+import 'package:cattinder/features/domain/usecases/signup_usecase.dart';
+import 'package:cattinder/features/presentation/screens/auth_screen.dart';
+import 'package:cattinder/features/presentation/viewmodels/auth_session_viewmodel.dart';
 
 class InMemoryAuthRepository implements AuthRepository {
   String? email;

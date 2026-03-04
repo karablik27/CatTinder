@@ -6,10 +6,10 @@ import 'package:provider/provider.dart';
 
 import 'app/app_scope.dart';
 import 'app/app_secrets.dart';
-import 'features/auth/presentation/screens/auth_screen.dart';
-import 'features/auth/presentation/viewmodels/auth_session_viewmodel.dart';
-import 'features/onboarding/presentation/screens/onboarding_screen.dart';
-import 'features/onboarding/presentation/viewmodels/onboarding_viewmodel.dart';
+import 'features/presentation/screens/auth_screen.dart';
+import 'features/presentation/viewmodels/auth_session_viewmodel.dart';
+import 'features/presentation/screens/onboarding_screen.dart';
+import 'features/presentation/viewmodels/onboarding_viewmodel.dart';
 import 'features/presentation/screens/breeds_screen.dart';
 import 'features/presentation/screens/main_screen.dart';
 import 'features/presentation/utils/colors.dart';
