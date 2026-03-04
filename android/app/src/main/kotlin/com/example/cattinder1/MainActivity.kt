@@ -1,4 +1,4 @@
-package com.example.cattinder
+package com.example.cattinder1
 
 import io.flutter.embedding.android.FlutterActivity
 
