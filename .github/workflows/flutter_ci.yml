@@ -1,0 +1,62 @@
+name: Flutter CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Analyze
+        run: flutter analyze
+
+      - name: Run unit tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          unit_tests=()
+          while IFS= read -r -d '' file; do
+            if ! grep -Eq 'testWidgets[[:space:]]*\(' "$file"; then
+              unit_tests+=("$file")
+            fi
+          done < <(find test -type f -name '*_test.dart' -print0 | sort -z)
+
+          if [ ${#unit_tests[@]} -eq 0 ]; then
+            echo "No unit tests found."
+            exit 1
+          fi
+
+          flutter test "${unit_tests[@]}"
+
+      - name: Run widget tests
+        shell: bash
+        run: |
+          set -euo pipefail
+          widget_tests=()
+          while IFS= read -r -d '' file; do
+            if grep -Eq 'testWidgets[[:space:]]*\(' "$file"; then
+              widget_tests+=("$file")
+            fi
+          done < <(find test -type f -name '*_test.dart' -print0 | sort -z)
+
+          if [ ${#widget_tests[@]} -eq 0 ]; then
+            echo "No widget tests found."
+            exit 1
+          fi
+
+          flutter test "${widget_tests[@]}"
