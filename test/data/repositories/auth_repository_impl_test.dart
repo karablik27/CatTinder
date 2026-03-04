@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:cattinder/features/auth/data/datasources/auth_local_data_source.dart';
-import 'package:cattinder/features/auth/data/models/auth_user_model.dart';
-import 'package:cattinder/features/auth/data/repositories/auth_repository_impl.dart';
+import 'package:cattinder/features/data/datasources/auth_local_data_source.dart';
+import 'package:cattinder/features/data/models/auth_user_model.dart';
+import 'package:cattinder/features/data/repositories/auth_repository_impl.dart';
 
 class InMemoryAuthLocalDataSource implements AuthLocalDataSource {
   AuthUserModel? storedUser;

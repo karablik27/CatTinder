@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../../presentation/utils/colors.dart';
+import '../utils/colors.dart';
 import '../viewmodels/auth_session_viewmodel.dart';
 
 class AuthScreen extends StatefulWidget {

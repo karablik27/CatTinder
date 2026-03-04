@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:cattinder/features/auth/domain/repositories/auth_repository.dart';
-import 'package:cattinder/features/auth/domain/usecases/login_usecase.dart';
+import 'package:cattinder/features/domain/repositories/auth_repository.dart';
+import 'package:cattinder/features/domain/usecases/login_usecase.dart';
 
 class SpyAuthRepository implements AuthRepository {
   String? lastLoginEmail;

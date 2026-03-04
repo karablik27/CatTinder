@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../../presentation/utils/colors.dart';
+import '../utils/colors.dart';
 import '../viewmodels/onboarding_viewmodel.dart';
 
 class OnboardingScreen extends StatefulWidget {
