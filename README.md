@@ -72,8 +72,12 @@
 ![5305379711716364173 (4)](https://github.com/user-attachments/assets/e039639c-5ac7-49b2-9650-07522693c303)
 ![5305379711716364171 (3)](https://github.com/user-attachments/assets/2253c0ad-2f93-416e-9e2d-7c6dbb4a9436)
 <img width="919" height="517" alt="Снимок экрана 2026-03-04 в 23 54 48" src="https://github.com/user-attachments/assets/0e6c99f4-183b-4e37-a71d-777e04624213" />
-https://github.com/user-attachments/assets/a25b80fd-2051-4dc0-b0cb-7497e175aa31
 
+![5280960035204829920](https://github.com/user-attachments/assets/73da83e7-a242-45bc-bb97-97d1d63c6fe5)
+
+![5280960035204829921](https://github.com/user-attachments/assets/b666827c-a0e5-431a-a4a1-7f2c28d0756f)
+
+https://github.com/user-attachments/assets/f3d94ddf-1fda-4db6-9699-26e48bc44a15
 
 ---
 
